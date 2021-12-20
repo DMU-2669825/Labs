@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- NOTE: this piece of code makesa it so that the page will scale to fit other devices, such as mobile phones. -->
+    <title>Home Page - The Dirt</title>#
+    <!-- NOTE: Title of the page, shown in the tab section. -->
+
+<link rel="stylesheet" href="CSS\style.css">
+<!-- NOTE: my link to the CSS stylesheet this allows me to edit each element on the page in a way that make it so that I only hagge to set these customisations once and it will carry on through the whole page -->
+  </head>
+
+
+  <body>
+
+    <div class="Title">
+
+<center> <h1> THE DIRT - (2019)</h1> <center>
+  <!-- NOTE: My title, I used h1 and customed it in CSS to be the size, colour and font I wanted. the h1 element allows me to create headings on my page. -->
+<nav>
+<!-- NOTE: Opened a NAV element as I was doing my navigation buttons. this declares the navigational section.-->
+<div class="container">
+  <!-- NOTE: Made a div element for the buttons to be inside, doing this allows me to edit the buttons easier using CSS, as it means I can edit everything in this div element at once and devides the pagers into sections.-->
+
+<a href="home.html"><button class="btn-1"type="button" name="Home_page_button" > HOME </button></a>
+<a href="About.html"><button class="btn-2"type="button" name="About_page_button" > ABOUT </button></a>
+
+<!-- NOTE: This is the piece of code that makes my buttons work and link to the appropriate page -->
+
+</nav>
+</div>
+  </div>
+
+
+<aside>
+  <!-- NOTE: made an aside tag as i wanted the text of the synopsis on the right side/center of the screen -->
+
+
+  <div class="text">
+    <!-- NOTE: opened a div element for the synopsis  -->
+
+  <center><u><h2>Synopsis</h2></u></center>
+  <!-- NOTE: I used h2 and underlined it to make it stand out and pop, but also be smaller then the original h1 title -->
+
+  <br> <!-- NOTE: the br element makes it so there is a space/ break in the page before the next bit of code is put on screen.I did this to split the heading from the text,  -->
+
+<p>The misfits of Mötley Crüe: Tommy Lee, Mick Mars, Vince Neil and Nikki Sixx rise
+  from <br> the streets of Hollywood to the heights of international fame in the 1980s.<br>
+  Based off true events of the life of the Mötley Crüe </p>
+
+  <!-- NOTE: I wrote the film synopsis and used page breaks in the middle to keep the paragraph more compact on the page as this is how i wnated it.  -->
+<!-- NOTE: the p or paragraph element is another text element usually used for longer pieces of text. -->
+</aside>
+<h3>Reviews</h3>
+<!-- NOTE: used a h3 tag to make the second heading -->
+
+<video class="review" controls loop width="700px" height="400px">
+<!-- NOTE:The video element allows you to add video onto a webpage.I added this video element to go under the sytnopsis, this is my reviews video.
+I changed the width and height to make it fit onto my page perfectly. -->
+
+  <source src="VIDEO\review.mp4" type="video/mp4">
+    <source src="VIDEO\review.ogv" type="video/ogg">
+
+
+  <p>Sorry your browser does not support the video element, click <a href="VIDEO\review.mp4">here to install the video</a></p>
+
+  <!-- NOTE:using the source element I made 3 different file choices for the browsers to choose from as not all browsers support all file types.
+also if none of these file types were compatitable with a users browser then text pops up allowing the, to download the file that the browser isnt allowing them to see. -->
+</video>
+
+
+  </div>
+
+
+<div class="left-image">
+
+  <!-- NOTE: opened a new div tag for my image that is on screen, this allows me to edit it further with CSS. -->
+
+<img src="IMAGE\front cover.jpg" alt="Official Film Cover" width="600px" height="800px">
+
+<!-- NOTE:The image element allows you to add an image onto a webpage. here I use the element to add the image I wanted on the page and rescaled it to fit on my page perfectly. -->
+
+
+
+<!-- NOTE: Here I give credit to the site I got the Image from using the a/anchor tag, this allowed me to link the original owner of the image. -->
+
+</div>
+
+<center> <h6>Watch The Trailer</h6> </center> <!-- NOTE: the center tag puts text/image into the centre of the webpage. -->
+
+<!-- NOTE: Used the h6 element to make my thrid heading on my page, as I wanted to make slight changes to where the text sits using css -->
+
+<center> <video class="Trailer" controls loop width="1800px" height="800px">
+
+  <!-- NOTE: Here I added the movie trailer in, and resized it to fit my page as I felt suited. -->
+
+  <source src="VIDEO\Ocean Sea Waves _ Drone Aerial View _ Free stock footage _ Free HD Videos - no copyright.mp4" type="video/mp4">
+  <source src="VIDEO\Ocean Sea Waves _ Drone Aerial View _ Free stock footage _ Free HD Videos - no copyright.webm" type="video/webm">
+</center>
+<!-- NOTE: the source element allowed me too provide different versions of my video/file   -->
+  If the Video does not load, click <a href="VIDEO\Ocean Sea Waves _ Drone Aerial View _ Free stock footage _ Free HD Videos - no copyright.mp4">here to install the video</a>
+
+<!-- NOTE: Here I added the video and gave 3 file type options, which is so the brownsers have multiple file options incase they dont support one of them.
+I also created a message for if a browser doesnt support ny of the file types, it has a link to download the file they will be missing. -->
+
+
+
+
+
+       </video>
+
+<br>
+<br>
+<br>
+<!-- NOTE: page breaks to split up the footer from the video -->
+
+<footer>
+
+<h4>Drew Glyn Wilmot - P2669825</h4>
+<!-- NOTE: here i adeed my footer with the relevent text inside. The footer tag creats a small section at the very bottom of a web page. -->
+</footer>
+
+
+
+
+
+
+  </body>
+</html>
