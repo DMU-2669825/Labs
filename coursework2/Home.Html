@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- NOTE: Here I tell the browser what language the website is in. -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- NOTE: Telling the browser to make the page fit the width of the device width, making it useable on mobile -->
+
+    <title>Kenny Hoopla Home</title>
+    <!-- NOTE: This is the title of the page, this is what will be shown as the name of the open internet tab -->
+
+    <link rel="stylesheet" href="CSS\Style.css">
+    <!-- NOTE: This is the line opf code that links my CSS page to the Html, I added this line of code to each page of my website to keep
+  everything consistant. -->
+
+  </head>
+  <body>
+
+<header>
+
+ <center>  <h1>Kenny Hoopla //</h1> </center>
+<!-- NOTE: The center tags make all headings, images, video or text set tpo the middle of the page.
+I then used a h1 tag for my main headingand customised its style using CSS-->
+</header>
+
+
+<center><script src="js/imageslider.js" >
+
+// NOTE: Here I added my Javascript file for the changing image on the home page.
+
+</script>
+
+<img name="slide" height="185" width="330"> </center>
+
+<!-- NOTE: This is where I st the size of the image slider, so it is visable and fits the page nicely -->
+
+<center><h2>About //</h2></center>
+<!-- NOTE: I chose to use the h2 tag as this was a subheading and not a main title heading -->
+<center><p>Kenny Hoopla <a href="#"></a>(Kenneth La'ron) was born on the 5th of August 1997
+He is a Well known singer-songwriter for his Indie rock/Pop Punk.<br> He gained his popularity with his breakout song 'How will I rest in peace if im buried by a highway?//' which can <br>
+be listened to below.
+ </p> <center>
+
+<!-- NOTE: I used the P or paragraph tag for my main on screen information, I custimised the style of the text using CSS -->
+
+<audio class="silence" controls>
+
+  <source src="Audio\audio.mp3" type="Audio/MP3">
+    <source src="Audio\audio.wav" type="Audio/WAV">
+
+
+
+<p>Sorry your browser cant load this file :( click <a href="Audio\audio.mp3">Here</a> to install it. </p>
+
+<!-- NOTE: Here I inserted my audio, I added controls so the user can decide when it is played, stopped and the ovlume level.
+I also provided two different file types, this is so whichever browser the user is using
+to look at the site if for some reason the browser doesnt support mp3 files it will then have the option to use
+a wav file. If both of these options do not work I added a message that will pop up apoligising for the error, and giving the user an option to
+install the file. -->
+
+</audio>
+
+<br>
+
+<!-- NOTE: I used these page breaks to structure my page, using the br tag allows me to create a gap between elements/text on screen -->
+
+<nav>
+
+<!-- NOTE: Added a nav tag to tell the browser that this section is for navigation -->
+
+<div class="container">
+
+<!-- NOTE: made a div element which will allow me to edit the buttons easier on CSS -->
+
+
+  <a href="Home.Html"><button class="btn-1"type="button" name="Home_page_button" > Home Page// </button></a>
+  <a href="Live events.html"><button class="btn-2"type="button" name="live_events_button" > Live Events// </button></a>
+  <a href="latest releases.html"><button class="btn-3"type="button" name="Latest_releases_button" > Latest Releases// </button></a>
+  <a href="Older music.html"><button class="btn-4"type="button" name="older_music_button" > Older Music// </button></a>
+
+<!-- NOTE: Here I added my buttons on screen, creating the names and what the button says on screen -->
+
+</nav>
+  </div>
+
+<br>
+
+<center>
+
+<footer>
+
+<!-- NOTE: I created a footer using the footer tag, this is because i wnated to create a section for all the media links on page -->
+
+<div id="media">
+
+  <!-- NOTE: I opened a new div tag as this allows me to edit all of the media links at once in CSS -->
+
+<a href="https://twitter.com/kennyhoopla">
+
+<img src="Image\twitter.webp" alt="twitter" height="60px" width="60px">
+
+</a>
+
+<a href="https://www.instagram.com/kennyhoopla/">
+
+<img src="Image\instagram.webp" alt="instagram" height="60px" width="60px">
+
+</a>
+
+<a href="https://www.facebook.com/KennyHoopla">
+
+<img src="Image\facebook.webp" alt="facebook" height="60px" width="60px">
+
+</a>
+
+<a href="https://open.spotify.com/artist/5ObBtv5VunwwhQaXXnUrsM">
+
+<img src="Image\spotify.png" alt="Spotify" height="60px" width="60px">
+
+</a>
+
+<!-- NOTE: Above you see the code I used to make the images of different social medias interactable so when they are clicked you taken to kenny hooplas page on that social media.  -->
+
+</div>
+
+</footer>
+
+</center>
+
+<center><h3>Click The Icons To Go To His Social Media //</h3></center>
+
+<!-- NOTE: I added a h3 tag as this was a sub sub heading, this was to explain to the users that they can click on the social media logos to go to his pages. -->
+
+
+
+
+
+  </body>
+</html>

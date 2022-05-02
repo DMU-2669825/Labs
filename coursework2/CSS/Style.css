@@ -1,0 +1,158 @@
+body {
+
+  background-image: url("../Image/background.jpg");
+}
+/* NOTE: This is where I added the background image, I chose to use CSS for this as it makes it easier to implement onto all pages. */
+
+header {
+  background-color: black;
+
+}
+
+/* NOTE: I wanted the background of whatever went into my header to be black, as my plan was to use white text ontop of the black to help it stand out.
+It also works very well with my chosen colpur scheme */
+
+h1 {
+
+color: White;
+
+font-style: italic;
+font-size: 50px;
+
+}
+
+/* NOTE: Here I customed my h1 tag to be 50px in text side, this is because I wanted large text for my main heading to make it pop.
+I also chose to make all h1 text italic as I thought it suited the stgyle of my page much better*/
+
+h2 {
+
+
+color: White;
+font-style: italic;
+font-size: 35px;
+background-color: black;
+
+}
+
+/* NOTE: h2 was customised to be slightly smaller at 35px, I chose to keep it italic also to keep the page theme consistant */
+
+p {
+
+color: white;
+font-style: bold;
+font-size: 24px;
+
+}
+
+/* NOTE: I chose my main text to be with the P tag so i decided to make this a smaller font size at 24px. This is still large enough to be easily read but also not too big that it can be mistaken as a header. */
+
+footer {
+  background-color: black;
+
+}
+
+/* NOTE: I wamted the background of my footer to be blac as my images are white only so this would help them pop out alwell with sticking to my chosen colour scheme. */
+
+#media {
+
+align-items: baseline;
+
+}
+
+/* NOTE: I chose to allign items as the images were sitting on top of eachother instead of side by side. So by alligning them with baseline it allowed the images to be but side by side. */
+
+h3 {
+
+  color: White;
+  font-style: italic;
+  font-size: 20px;
+  background-color: black;
+
+
+}
+
+/* NOTE: h3 was mainly used as information such as information on what is interactible, as this isnt key information the page I made it the smallest font size of all at 20, still easily readable but also not too big that it stands out */
+
+.btn-1 {
+  background-color: #000000;
+  color:#ffffff;
+  width: 80px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #670001;
+  transition: ease-out 0.3s;
+  font-size: 16px;
+  outline: none;
+  font-family: arial;
+  font-weight: bold;
+}
+
+/* NOTE: Here I created my buttons, customising size, colour and font. I did this for each button individally as you can see below. */
+
+.btn-2 {
+  background-color: #000000;
+  color:#ffffff;
+  width: 80px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #670001;
+  transition: ease-out 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+
+
+}
+
+.btn-3 {
+  background-color: #000000;
+  color:#ffffff;
+  width: 90px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #670001;
+  transition: ease-out 0.3s;
+  font-size: 16px;
+  outline: none;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.btn-4 {
+  background-color: #000000;
+  color:#ffffff;
+  width: 80px;
+  height: 50px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 0 #670001;
+  transition: ease-out 0.3s;
+  font-size: 16px;
+  outline: none;
+  font-family: arial;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: top;
+  text-align: top;
+
+
+
+}
+
+/* NOTE: This container is used to organise my buttons and the layout, I used flex direction row to put them side by side and also used
+the space evenly code to make sure there is an equal gap between them all. */
+
+.border {
+
+background-color: black;
+width: 320px;
+height: 220px;
+
+}
+
+/* NOTE: As my background is kenny's recent album, this made it difficult to make it stand out on the 'lastest releases' page, so i decided
+to add a black border around the album cover photo to make it stand out from the background */
